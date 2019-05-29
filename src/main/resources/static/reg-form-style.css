@@ -19,7 +19,13 @@
 }
 
 .col1header{
-	padding-left:10em;
+	padding-left:8em;
+	padding-top: 2em;
+}
+
+.col2header {
+	padding-left:2em;
+	padding-top: 2em;
 }
 
 .left {
@@ -35,16 +41,20 @@
 }
 
 .leftcol2{
-	padding-right: 1em;
-    width: 15%;
+	padding-left: 3em;
+    width: 20%;
     float: left;
     text-align: left;
 }
 
 .rightcol2{
-	width: 80%;
-    padding-right: 10em;
+	width: 70%;
+    padding-right: 7em;
     float:left;
+}
+
+.regblurb{
+	text-align: center;
 }
 
 #phoneMessage {

@@ -7,6 +7,7 @@
 <title>G&C-Welcome Aboard!</title>
 </head>
 <body>
+<a href="home">Home</a>
 
 <h2>Hey, ${acct}!</h2>
 <h3>You're all set.</h3>

@@ -4,7 +4,7 @@
 var phoneNum = document.getElementById("phone");
 var phoneError = document.getElementById("phoneError");
 
-var pwd = document.getElementById("pass");
+var pwd = document.getElementById("password");
 var cpass = document.getElementById("cpwd");
 var passMatch = document.getElementById("matches");
 var letter = document.getElementById("letter");
@@ -51,11 +51,9 @@ pwd.onkeyup = function() {
 	if (pwd.value.match(lowerCaseLetters)) {
 		letter.classList.remove("invalid");
 		letter.classList.add("valid");
-		document.getElementById('submit').disabled = true;
 	} else {
 		letter.classList.remove("valid");
 		letter.classList.add("invalid");
-		document.getElementById('submit').disabled = false;
 	}
 
 	// check capital
@@ -97,25 +95,32 @@ cpass.onkeyup = function () {
 	// check matching passwords
 	if (pwd.value == cpass.value) {
 		passMatch.style.visibility = "hidden";
-		//document.getElementById('submit').disabled = true;
 		
 	} else {
 		passMatch.style.visibility = "visible";
-		//document.getElementById('submit').disabled = false;
 	}
 }
 
 //validate phone numbers
 phoneNum.onkeyup = function () {
-	var phoneRegex = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+	var phoneRegex = /^\d{3}-\d{3}-\d{4}$/gm;
 	
 	if (phoneNum.value.match(phoneRegex)) {
 		phoneError.style.visibility = "hidden";
-		//document.getElementById('Submit').disabled = true;
+		//document.getElementById('submit').disabled = false;
 		
 	} else {
-		phoneError.classList.remove("valid");
-		phoneError.classList.add("invalid");
-		//document.getElementById('Submit').disabled = false;
+		phoneError.style.visibility = "visible";
+		//document.getElementById('submit').disabled = 'disabled';
 	}
+}
+
+function validateRegForm() {
+	var result = false;
+	if((pwd.value.match(lowerCaseLetters)) &&
+			(pwd.value.match(upperCaseLetters)) && (pwd.value.match(numbers)) &&
+			(pwd.value == cpass.value) && (phoneNum.value.match(phoneRegex))) {
+		result = true;
+	}
+	return result;
 }

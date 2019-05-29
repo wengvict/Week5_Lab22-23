@@ -1,9 +1,9 @@
-package com.homeworkgc.CoffeeShop;
+package com.homeworkgc.CoffeeShop.model;
 
 public class UserAccount {
 	
-	private String firstName;
-	private String lastName; 
+	private String firstname;
+	private String lastname; 
 	private String gender;
 	private String phone;
 	private String email;
@@ -17,11 +17,11 @@ public class UserAccount {
 		
 	}
 
-	public UserAccount(String firstName, String lastName, String gender, String phone, String email, String password,
+	public UserAccount(String firstname, String lastname, String gender, String phone, String email, String password,
 			String street, String city, String state, String zip) {
 		super();
-		this.firstName = firstName;
-		this.lastName = lastName;
+		this.firstname = firstname;
+		this.lastname = lastname;
 		this.gender = gender;
 		this.phone = phone;
 		this.email = email;
@@ -32,20 +32,22 @@ public class UserAccount {
 		this.zip = zip;
 	}
 
-	public String getFirstName() {
-		return firstName;
+
+
+	public String getFirstname() {
+		return firstname;
 	}
 
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
+	public void setFirstname(String firstname) {
+		this.firstname = firstname;
 	}
 
-	public String getLastName() {
-		return lastName;
+	public String getLastname() {
+		return lastname;
 	}
 
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
 	}
 
 	public String getGender() {
@@ -114,7 +116,7 @@ public class UserAccount {
 
 	@Override
 	public String toString() {
-		return firstName + ","+ lastName + "," + gender + "," + phone + 
+		return firstname + ","+ lastname + "," + gender + "," + phone + 
 				"," + email + "," + password + "," + street + "," + city +
 				"," + state + "," + zip;
 	}
