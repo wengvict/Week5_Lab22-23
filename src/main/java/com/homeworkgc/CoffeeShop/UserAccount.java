@@ -1,4 +1,4 @@
-package com.homeworkgc.CoffeeShop.model;
+package com.homeworkgc.CoffeeShop;
 
 public class UserAccount {
 	
@@ -15,6 +15,14 @@ public class UserAccount {
 	
 	public UserAccount() {
 		
+	}
+
+	public UserAccount(String firstname, String lastname, String email, String password) {
+		super();
+		this.firstname = firstname;
+		this.lastname = lastname;
+		this.email = email;
+		this.password = password;
 	}
 
 	public UserAccount(String firstname, String lastname, String gender, String phone, String email, String password,

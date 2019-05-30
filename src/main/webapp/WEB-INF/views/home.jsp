@@ -30,6 +30,8 @@
 				<li class="nav-item active"><a class="nav-link" href="home">Home<span
 						class="sr-only">(current)</span>
 				</a></li>
+				<li class="nav-item"><a class="nav-link" href="shop-page">Shop</a>
+				</li>
 				<li class="nav-item"><a class="nav-link" href="login-page">Login</a>
 				</li>
 				<li class="nav-item"><a class="nav-link" href="reg-page">Register</a></li>

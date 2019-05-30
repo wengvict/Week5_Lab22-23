@@ -12,7 +12,7 @@
 	integrity="sha384-hVpXlpdRmJ+uXGwD5W6HZMnR9ENcKVRn855pPbuI/mwPIEKAuKgTKgGksVGmlAvt"
 	crossorigin="anonymous">
 
-<title>G&C-Join Us!</title>
+<title>Join Us-G&C Roasting Collective</title>
 </head>
 <body>
 
@@ -28,6 +28,8 @@
 			bis_skin_checked="1">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item"><a class="nav-link" href="home">Home </a></li>
+				<li class="nav-item"><a class="nav-link" href="shop-page">Shop</a>
+				</li>
 				<li class="nav-item"><a class="nav-link" href="login-page">Login</a>
 				</li>
 				<li class="nav-item active"><a class="nav-link" href="reg-page">Register<span
