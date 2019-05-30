@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>G&C-Welcome Aboard!</title>
+<title>Welcome Aboard-G&C Roasting Collective</title>
 </head>
 <body>
 <a href="home">Home</a>
