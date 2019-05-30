@@ -5,8 +5,6 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.homeworkgc.CoffeeShop.UserAccount;
-
 @Component
 public class AccountService {
 	

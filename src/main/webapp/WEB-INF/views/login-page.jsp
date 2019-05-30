@@ -10,7 +10,7 @@
 	rel="stylesheet"
 	integrity="sha384-hVpXlpdRmJ+uXGwD5W6HZMnR9ENcKVRn855pPbuI/mwPIEKAuKgTKgGksVGmlAvt"
 	crossorigin="anonymous">
-<title>Welcome Back-G&C Roasting Collective</title>
+<title>G&C-Hello Again!</title>
 </head>
 <body>
 
@@ -27,8 +27,6 @@
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item"><a class="nav-link" href="home">Home
 				</a></li>
-				<li class="nav-item"><a class="nav-link" href="shop-page">Shop</a>
-				</li>
 				<li class="nav-item active"><a class="nav-link" href="login-page">Login<span
 						class="sr-only">(current)</span></a>
 				</li>
@@ -43,6 +41,6 @@
 	</nav>
 
 <h2>You've been missed.</h2>
-<h3>Glad to see you again!</h3>
+<h3>Welcome back!</h3>
 </body>
 </html>
